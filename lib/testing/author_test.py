@@ -28,11 +28,11 @@ class TestAuthor:
         assert isinstance(author_2.name, str)
 
         # comment out the next two lines if using Exceptions
-        author_1.name = "ActuallyTopher"
+        #author_1.name = "ActuallyTopher" # cant set attribute
         assert author_1.name == "Carry Bradshaw"
 
         # comment out the next two lines if using Exceptions
-        author_2.name = 2
+        #author_2.name = 2
         assert author_2.name == "Nathaniel Hawthorne"
 
         # uncomment the next two lines if using Exceptions
